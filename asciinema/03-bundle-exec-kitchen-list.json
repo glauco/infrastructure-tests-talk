@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 3.106501,
+  "command": "bundle exec kitchen list",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      3.088940,
+      "\u001b[32mInstance\u001b[0m             \u001b[32mDriver\u001b[0m   \u001b[32mProvisioner\u001b[0m  \u001b[32mVerifier\u001b[0m  \u001b[32mTransport\u001b[0m  \u001b[32mLast Action\u001b[0m\r\ndefault-centos-71\u001b[37m\u001b[0m    Vagrant\u001b[37m\u001b[0m  ChefZero\u001b[37m\u001b[0m     Inspec\u001b[37m\u001b[0m    Ssh\u001b[37m\u001b[0m        \u001b[31m\u003cNot Created\u003e\u001b[0m"
+    ],
+    [
+      0.000032,
+      "\r\ndefault-ubuntu-1404\u001b[37m\u001b[0m  Vagrant\u001b[37m\u001b[0m  ChefZero\u001b[37m\u001b[0m     Inspec\u001b[37m\u001b[0m    Ssh\u001b[37m\u001b[0m        \u001b[31m\u003cNot Created\u003e\u001b[0m\r\n"
+    ]
+  ]
+}

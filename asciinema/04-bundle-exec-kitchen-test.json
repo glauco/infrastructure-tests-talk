@@ -1,0 +1,1146 @@
+{
+  "version": 1,
+  "width": 208,
+  "height": 54,
+  "duration": 214.716485,
+  "command": "bundle exec kitchen test",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      1.885831,
+      "-----\u003e Starting Kitchen (v1.10.2)\r\n"
+    ],
+    [
+      1.493153,
+      "\u001b[36m-----\u003e Cleaning up any prior instances of \u003cdefault-centos-71\u003e\u001b[0m\r\n"
+    ],
+    [
+      0.000050,
+      "\u001b[36m-----\u003e Destroying \u003cdefault-centos-71\u003e...\u001b[0m\r\n"
+    ],
+    [
+      0.000751,
+      "\u001b[36m       Finished destroying \u003cdefault-centos-71\u003e (0m0.00s).\u001b[0m\r\n"
+    ],
+    [
+      0.000220,
+      "\u001b[36m-----\u003e Testing \u003cdefault-centos-71\u003e\u001b[0m\r\n"
+    ],
+    [
+      0.000076,
+      "\u001b[36m-----\u003e Creating \u003cdefault-centos-71\u003e...\u001b[0m\r\n"
+    ],
+    [
+      2.132065,
+      "\u001b[36m       Bringing machine 'default' up with 'virtualbox' provider...\u001b[0m\r\n"
+    ],
+    [
+      0.214820,
+      "\u001b[36m       ==\u003e default: Importing base box 'bento/centos-7.1'...\u001b[0m\r\n"
+    ],
+    [
+      7.253398,
+      "\u001b[36m       \r\u001b[KProgress: 20%\r\u001b[KProgress: 50%\r\u001b[KProgress: 70%\r\u001b[KProgress: 90%\r\u001b[K==\u003e default: Matching MAC address for NAT networking...\u001b[0m\r\n"
+    ],
+    [
+      0.160837,
+      "\u001b[36m       ==\u003e default: Checking if box 'bento/centos-7.1' is up to date...\u001b[0m\r\n"
+    ],
+    [
+      3.416453,
+      "\u001b[36m       ==\u003e default: Setting the name of the VM: kitchen-provisioning-tests-talk-default-centos-71_default_1467489713478_95238\u001b[0m\r\n"
+    ],
+    [
+      0.749480,
+      "\u001b[36m       ==\u003e default: Fixed port collision for 22 =\u003e 2222. Now on port 2201.\u001b[0m\r\n"
+    ],
+    [
+      0.052545,
+      "\u001b[36m       ==\u003e default: Clearing any previously set network interfaces...\u001b[0m\r\n"
+    ],
+    [
+      0.053943,
+      "\u001b[36m       ==\u003e default: Preparing network interfaces based on configuration...\u001b[0m\r\n"
+    ],
+    [
+      0.000414,
+      "\u001b[36m           default: Adapter 1: nat\u001b[0m\r\n"
+    ],
+    [
+      0.053553,
+      "\u001b[36m       ==\u003e default: Forwarding ports...\u001b[0m\r\n"
+    ],
+    [
+      0.085699,
+      "\u001b[36m           default: 22 =\u003e 2201 (adapter 1)\u001b[0m\r\n"
+    ],
+    [
+      0.203824,
+      "\u001b[36m       ==\u003e default: Booting VM...\u001b[0m\r\n"
+    ],
+    [
+      0.234866,
+      "\u001b[36m       ==\u003e default: Waiting for machine to boot. This may take a few minutes...\u001b[0m\r\n"
+    ],
+    [
+      0.384648,
+      "\u001b[36m           default: SSH address: 127.0.0.1:2201\u001b[0m\r\n"
+    ],
+    [
+      0.000166,
+      "\u001b[36m           default: SSH username: vagrant\u001b[0m\r\n"
+    ],
+    [
+      0.000643,
+      "\u001b[36m           default: SSH auth method: private key\u001b[0m\r\n"
+    ],
+    [
+      15.251157,
+      "\u001b[36m           default: Warning: Connection timeout. Retrying...\u001b[0m\r\n"
+    ],
+    [
+      0.887122,
+      "\u001b[36m           default: \u001b[0m\r\n"
+    ],
+    [
+      0.000010,
+      "\u001b[36m           default: Vagrant insecure key detected. Vagrant will automatically replace\u001b[0m\r\n"
+    ],
+    [
+      0.000016,
+      "\u001b[36m           default: this with a newly generated keypair for better security.\u001b[0m\r\n"
+    ],
+    [
+      1.475069,
+      "\u001b[36m           default: \u001b[0m\r\n"
+    ],
+    [
+      0.000011,
+      "\u001b[36m           default: Inserting generated public key within guest...\u001b[0m\r\n"
+    ],
+    [
+      0.413081,
+      "\u001b[36m           default: Removing insecure key from the guest if it's present...\u001b[0m\r\n"
+    ],
+    [
+      0.250229,
+      "\u001b[36m           default: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m\r\n"
+    ],
+    [
+      1.477991,
+      "\u001b[36m       ==\u003e default: Machine booted and ready!\u001b[0m\r\n"
+    ],
+    [
+      0.000536,
+      "\u001b[36m       ==\u003e default: Checking for guest additions in VM...\u001b[0m\r\n"
+    ],
+    [
+      0.053320,
+      "\u001b[36m       ==\u003e default: Setting hostname...\u001b[0m\r\n"
+    ],
+    [
+      0.729572,
+      "\u001b[36m       ==\u003e default: Machine not provisioned because `--no-provision` is specified.\u001b[0m\r\n"
+    ],
+    [
+      3.096456,
+      "\u001b[36m       /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory\u001b[0m\r\n"
+    ],
+    [
+      0.007602,
+      "\u001b[36m       [SSH] Established\u001b[0m\r\n"
+    ],
+    [
+      0.000344,
+      "\u001b[36m       Vagrant instance \u003cdefault-centos-71\u003e created.\u001b[0m\r\n"
+    ],
+    [
+      0.002327,
+      "\u001b[36m       Finished creating \u003cdefault-centos-71\u003e (0m38.64s).\u001b[0m\r\n"
+    ],
+    [
+      0.000350,
+      "\u001b[36m-----\u003e Converging \u003cdefault-centos-71\u003e...\u001b[0m\r\n"
+    ],
+    [
+      0.002470,
+      "\u001b[36m       Preparing files for transfer\u001b[0m\r\n"
+    ],
+    [
+      0.000123,
+      "\u001b[36m       Preparing dna.json\u001b[0m\r\n"
+    ],
+    [
+      0.000839,
+      "\u001b[36m       Resolving cookbook dependencies with Berkshelf 4.3.5...\u001b[0m\r\n"
+    ],
+    [
+      0.720731,
+      "\u001b[36m       Removing non-cookbook files before transfer\u001b[0m\r\n"
+    ],
+    [
+      0.012674,
+      "\u001b[36m       Preparing validation.pem\u001b[0m\r\n"
+    ],
+    [
+      0.000746,
+      "\u001b[36m       Preparing client.rb\u001b[0m\r\n"
+    ],
+    [
+      0.216979,
+      "\u001b[36m       /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory\u001b[0m\r\n"
+    ],
+    [
+      0.063468,
+      "\u001b[36m-----\u003e Installing Chef Omnibus (install only if missing)\u001b[0m\r\n"
+    ],
+    [
+      0.083589,
+      "\u001b[36m       Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh\u001b[0m\r\n"
+    ],
+    [
+      0.000009,
+      "\u001b[36m       Trying wget...\u001b[0m\r\n"
+    ],
+    [
+      1.179303,
+      "\u001b[36m       Download complete.\u001b[0m\r\n"
+    ],
+    [
+      0.052037,
+      "\u001b[36m       el 7 x86_64\u001b[0m\r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[36m       Getting information for chef stable  for el...\u001b[0m\r\n\u001b[36m       downloading https://omnitruck.chef.io/stable/chef/metadata?v=\u0026p=el\u0026pv=7\u0026m=x86_64\u001b[0m\r\n"
+    ],
+    [
+      0.000068,
+      "\u001b[36m         to file /tmp/install.sh.7259/metadata.txt\u001b[0m\r\n"
+    ],
+    [
+      0.008643,
+      "\u001b[36m       trying wget...\u001b[0m\r\n"
+    ],
+    [
+      1.373603,
+      "\u001b[36m       sha1\t4b0ecd14127fe6d0e5423f78a733ce43db1814c7\u001b[0m\r\n"
+    ],
+    [
+      0.000012,
+      "\u001b[36m       sha256\ta5d5db51eb57cdb0045953f4007f10bf50199c40c0d89c41272cf171d56b6c53\u001b[0m\r\n\u001b[36m       url\thttps://packages.chef.io/stable/el/7/chef-12.11.18-1.el7.x86_64.rpm\u001b[0m\r\n"
+    ],
+    [
+      0.000025,
+      "\u001b[36m       version\t12.11.18\u001b[0m\r\n"
+    ],
+    [
+      0.004878,
+      "\u001b[36m       downloaded metadata file looks valid...\u001b[0m\r\n"
+    ],
+    [
+      0.022010,
+      "\u001b[36m       downloading https://packages.chef.io/stable/el/7/chef-12.11.18-1.el7.x86_64.rpm\u001b[0m\r\n"
+    ],
+    [
+      0.000043,
+      "\u001b[36m         to file /tmp/install.sh.7259/chef-12.11.18-1.el7.x86_64.rpm\u001b[0m\r\n"
+    ],
+    [
+      0.003161,
+      "\u001b[36m       trying wget...\u001b[0m\r\n"
+    ],
+    [
+      17.569510,
+      "\u001b[36m       Comparing checksum with sha256sum...\u001b[0m\r\n"
+    ],
+    [
+      0.326896,
+      "\u001b[36m       \u001b[0m\r\n"
+    ],
+    [
+      0.000012,
+      "\u001b[36m       WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING\u001b[0m\r\n\u001b[36m       \u001b[0m\r\n\u001b[36m       You are installing an omnibus package without a version pin.  If you are installing\u001b[0m\r\n"
+    ],
+    [
+      0.000023,
+      "\u001b[36m       on production servers via an automated process this is DANGEROUS and you will\u001b[0m\r\n\u001b[36m       be upgraded without warning on new releases, even to new major releases.\u001b[0m\r\n"
+    ],
+    [
+      0.000013,
+      "\u001b[36m       Letting the version float is only appropriate in desktop, test, development or\u001b[0m\r\n"
+    ],
+    [
+      0.000059,
+      "\u001b[36m       CI/CD environments.\u001b[0m\r\n\u001b[36m       \u001b[0m\r\n\u001b[36m       WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING\u001b[0m\r\n\u001b[36m       \u001b[0m\r\n"
+    ],
+    [
+      0.000034,
+      "\u001b[36m       Installing chef \u001b[0m\r\n\u001b[36m       installing with rpm...\u001b[0m\r\n"
+    ],
+    [
+      0.089648,
+      "\u001b[36m       warning: /tmp/install.sh.7259/chef-12.11.18-1.el7.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY\u001b[0m\r\n"
+    ],
+    [
+      0.320037,
+      "\u001b[36m       Preparing...                                                            (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#                                 (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##                                (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###                               (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008####                              (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#####                             (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008######                            (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#######                           (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008########                          (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#########                         (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##########                        (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###########                       (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008############  "
+    ],
+    [
+      0.000025,
+      "                    (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#############                     (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##############                    (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###############                   (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008################                  (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#################                 (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##################                (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###################               (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008####################              (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#####################             (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008######################            (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#######################           (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008########################          (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008"
+    ],
+    [
+      0.000336,
+      "\u0008\u0008#########################         (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##########################        (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###########################       (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008############################      (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#############################     (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##############################    (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###############################   (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008################################  (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008################################# (100%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008################################# [100%]\u001b[0m\r\n"
+    ],
+    [
+      0.008766,
+      "\u001b[36m       Updating / installing...\u001b[0m\r\n"
+    ],
+    [
+      6.460828,
+      "\u001b[36m          1:chef-12.11.18-1.el7                                                (  1%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#                                 (  4%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##                                (  7%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###                               ( 10%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008####                              ( 13%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#####                             ( 16%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008######                            ( 19%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#######                           ( 22%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008########                          ( 25%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#########                         ( 28%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##########                        ( 31%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###########                       ( 34%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008############  "
+    ],
+    [
+      0.000024,
+      "                    ( 37%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#############                     ( 40%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##############                    ( 43%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###############                   ( 46%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008################                  ( 49%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#################                 ( 51%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##################                ( 54%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###################               ( 57%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008####################              ( 60%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#####################             ( 63%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008######################            ( 66%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#######################           ( 69%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008########################          ( 72%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008"
+    ],
+    [
+      0.000402,
+      "\u0008\u0008#########################         ( 75%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##########################        ( 78%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###########################       ( 81%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008############################      ( 84%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008#############################     ( 87%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008##############################    ( 90%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008###############################   ( 93%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008################################  ( 96%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008################################# ( 99%)\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008\u0008################################# [100%]\u001b[0m\r\n"
+    ],
+    [
+      0.826832,
+      "\u001b[36m       Thank you for installing Chef!\u001b[0m\r\n"
+    ],
+    [
+      0.245299,
+      "\u001b[36m       /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory\u001b[0m\r\n"
+    ],
+    [
+      0.088181,
+      "\u001b[36m       Transferring files to \u003cdefault-centos-71\u003e\u001b[0m\r\n"
+    ],
+    [
+      1.372441,
+      "\u001b[36m       /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory\u001b[0m\r\n"
+    ],
+    [
+      1.566648,
+      "\u001b[36m       Starting Chef Client, version 12.11.18\u001b[0m\r\n"
+    ],
+    [
+      1.770270,
+      "\u001b[36m       Creating a new client identity for default-centos-71 using the validator key.\u001b[0m\r\n"
+    ],
+    [
+      0.076842,
+      "\u001b[36m       resolving cookbooks for run list: [\"example::default\"]\u001b[0m\r\n"
+    ],
+    [
+      0.434370,
+      "\u001b[36m       Synchronizing Cookbooks:\u001b[0m\r\n"
+    ],
+    [
+      0.010906,
+      "\u001b[36m         - example (0.0.1)\u001b[0m\r\n"
+    ],
+    [
+      0.102071,
+      "\u001b[36m         - yum (3.11.0)\u001b[0m\r\n"
+    ],
+    [
+      0.126132,
+      "\u001b[36m         - apt (4.0.1)\u001b[0m\r\n"
+    ],
+    [
+      0.012820,
+      "\u001b[36m         - compat_resource (12.10.6)\u001b[0m\r\n"
+    ],
+    [
+      0.000009,
+      "\u001b[36m       Installing Cookbook Gems:\u001b[0m\r\n"
+    ],
+    [
+      0.000013,
+      "\u001b[36m       Compiling Cookbooks...\u001b[0m\r\n"
+    ],
+    [
+      0.026976,
+      "\u001b[36m       [2016-07-02T20:02:52+00:00] WARN: Chef::Provider::AptRepository already exists!  Cannot create deprecation class for LWRP provider apt_repository from cookbook apt\u001b[0m\r\n"
+    ],
+    [
+      0.011934,
+      "\u001b[36m       [2016-07-02T20:02:52+00:00] WARN: AptRepository already exists!  Deprecation class overwrites Custom resource apt_repository from cookbook apt\u001b[0m\r\n"
+    ],
+    [
+      0.065407,
+      "\u001b[36m       Converging 2 resources\u001b[0m\r\n"
+    ],
+    [
+      0.000022,
+      "\u001b[36m       Recipe: example::apache\u001b[0m\r\n"
+    ],
+    [
+      23.352706,
+      "\u001b[36m         * yum_package[httpd] action install\u001b[0m\r\n\u001b[36m           - install version 2.4.6-40.el7.centos.1 of package httpd\u001b[0m\r\n"
+    ],
+    [
+      0.190302,
+      "\u001b[36m         * service[httpd] action start\u001b[0m\r\n"
+    ],
+    [
+      0.000010,
+      "\u001b[36m           - start service service[httpd]\u001b[0m\r\n"
+    ],
+    [
+      0.089389,
+      "\u001b[36m       \u001b[0m\r\n"
+    ],
+    [
+      0.000011,
+      "\u001b[36m       Running handlers:\u001b[0m\r\n\u001b[36m       Running handlers complete\u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[36m       Chef Client finished, 2/2 resources updated in 26 seconds\u001b[0m\r\n"
+    ],
+    [
+      1.797176,
+      "\u001b[36m       Finished converging \u003cdefault-centos-71\u003e (1m0.68s).\u001b[0m\r\n"
+    ],
+    [
+      0.000318,
+      "\u001b[36m-----\u003e Setting up \u003cdefault-centos-71\u003e...\u001b[0m\r\n"
+    ],
+    [
+      0.006321,
+      "\u001b[36m       Finished setting up \u003cdefault-centos-71\u003e (0m0.00s).\u001b[0m\r\n"
+    ],
+    [
+      0.000030,
+      "\u001b[36m-----\u003e Verifying \u003cdefault-centos-71\u003e...\u001b[0m\r\n"
+    ],
+    [
+      0.677591,
+      "\u001b[36m       Use `/Users/glauco/Github/provisioning-tests-talk/test/integration/default` for testing\u001b[0m\r\n"
+    ],
+    [
+      0.718369,
+      "\r\n"
+    ],
+    [
+      0.000021,
+      "Target:  ssh://vagrant@127.0.0.1:2201\r\n\r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[32m  ✔  System Package httpd should be installed\u001b[0m\r\n"
+    ],
+    [
+      0.000073,
+      "\u001b[32m  ✔  Service httpd should be installed\u001b[0m\r\n"
+    ],
+    [
+      0.000158,
+      "\u001b[32m  ✔  Port 80 should be listening\u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "\r\n"
+    ],
+    [
+      0.000010,
+      "Summary:   4 successful    0 failures    0 skipped"
+    ],
+    [
+      0.000003,
+      "\r\n"
+    ],
+    [
+      0.001215,
+      "\u001b[36m       Finished verifying \u003cdefault-centos-71\u003e (0m1.39s).\u001b[0m\r\n"
+    ],
+    [
+      0.001592,
+      "\u001b[36m-----\u003e Destroying \u003cdefault-centos-71\u003e...\u001b[0m\r\n"
+    ],
+    [
+      3.556996,
+      "\u001b[36m       ==\u003e default: Forcing shutdown of VM...\u001b[0m\r\n"
+    ],
+    [
+      1.155236,
+      "\u001b[36m       ==\u003e default: Destroying VM and associated drives...\u001b[0m\r\n"
+    ],
+    [
+      0.301028,
+      "\u001b[36m       Vagrant instance \u003cdefault-centos-71\u003e destroyed.\u001b[0m\r\n"
+    ],
+    [
+      0.001358,
+      "\u001b[36m       Finished destroying \u003cdefault-centos-71\u003e (0m5.01s).\u001b[0m\r\n"
+    ],
+    [
+      0.000621,
+      "\u001b[36m       Finished testing \u003cdefault-centos-71\u003e (1m45.75s).\u001b[0m\r\n"
+    ],
+    [
+      0.000201,
+      "\u001b[33m-----\u003e Cleaning up any prior instances of \u003cdefault-ubuntu-1404\u003e\u001b[0m\r\n"
+    ],
+    [
+      0.000160,
+      "\u001b[33m-----\u003e Destroying \u003cdefault-ubuntu-1404\u003e...\u001b[0m\r\n"
+    ],
+    [
+      0.007739,
+      "\u001b[33m       Finished destroying \u003cdefault-ubuntu-1404\u003e (0m0.00s).\u001b[0m\r\n"
+    ],
+    [
+      0.000246,
+      "\u001b[33m-----\u003e Testing \u003cdefault-ubuntu-1404\u003e\u001b[0m\r\n"
+    ],
+    [
+      0.000184,
+      "\u001b[33m-----\u003e Creating \u003cdefault-ubuntu-1404\u003e...\u001b[0m\r\n"
+    ],
+    [
+      1.768757,
+      "\u001b[33m       Bringing machine 'default' up with 'virtualbox' provider...\u001b[0m\r\n"
+    ],
+    [
+      0.227351,
+      "\u001b[33m       ==\u003e default: Importing base box 'bento/ubuntu-14.04'...\u001b[0m\r\n"
+    ],
+    [
+      10.914134,
+      "\u001b[33m       \r\u001b[KProgress: 20%\r\u001b[KProgress: 30%\r\u001b[KProgress: 40%\r\u001b[KProgress: 50%\r\u001b[KProgress: 60%\r\u001b[KProgress: 70%\r\u001b[KProgress: 80%\r\u001b[KProgress: 90%\r\u001b[K==\u003e default: Matching MAC address for NAT networking...\u001b[0m\r\n"
+    ],
+    [
+      0.191935,
+      "\u001b[33m       ==\u003e default: Checking if box 'bento/ubuntu-14.04' is up to date...\u001b[0m\r\n"
+    ],
+    [
+      2.766630,
+      "\u001b[33m       ==\u003e default: Setting the name of the VM: kitchen-provisioning-tests-talk-default-ubuntu-1404_default_1467489821929_75865\u001b[0m\r\n"
+    ],
+    [
+      0.785250,
+      "\u001b[33m       ==\u003e default: Fixed port collision for 22 =\u003e 2222. Now on port 2201.\u001b[0m\r\n"
+    ],
+    [
+      0.054382,
+      "\u001b[33m       ==\u003e default: Clearing any previously set network interfaces...\u001b[0m\r\n"
+    ],
+    [
+      0.095728,
+      "\u001b[33m       ==\u003e default: Preparing network interfaces based on configuration...\u001b[0m\r\n"
+    ],
+    [
+      0.000368,
+      "\u001b[33m           default: Adapter 1: nat\u001b[0m\r\n"
+    ],
+    [
+      0.066705,
+      "\u001b[33m       ==\u003e default: Forwarding ports...\u001b[0m\r\n"
+    ],
+    [
+      0.107984,
+      "\u001b[33m           default: 22 =\u003e 2201 (adapter 1)\u001b[0m\r\n"
+    ],
+    [
+      0.214288,
+      "\u001b[33m       ==\u003e default: Booting VM...\u001b[0m\r\n"
+    ],
+    [
+      0.236256,
+      "\u001b[33m       ==\u003e default: Waiting for machine to boot. This may take a few minutes...\u001b[0m\r\n"
+    ],
+    [
+      0.405336,
+      "\u001b[33m           default: SSH address: 127.0.0.1:2201\u001b[0m\r\n"
+    ],
+    [
+      0.000413,
+      "\u001b[33m           default: SSH username: vagrant\u001b[0m\r\n"
+    ],
+    [
+      0.000137,
+      "\u001b[33m           default: SSH auth method: private key\u001b[0m\r\n"
+    ],
+    [
+      15.274260,
+      "\u001b[33m           default: Warning: Connection timeout. Retrying...\u001b[0m\r\n"
+    ],
+    [
+      0.589018,
+      "\u001b[33m           default: \u001b[0m\r\n"
+    ],
+    [
+      0.000010,
+      "\u001b[33m           default: Vagrant insecure key detected. Vagrant will automatically replace\u001b[0m\r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[33m           default: this with a newly generated keypair for better security.\u001b[0m\r\n"
+    ],
+    [
+      0.335907,
+      "\u001b[33m           default: \u001b[0m\r\n"
+    ],
+    [
+      0.000011,
+      "\u001b[33m           default: Inserting generated public key within guest...\u001b[0m\r\n"
+    ],
+    [
+      0.133266,
+      "\u001b[33m           default: Removing insecure key from the guest if it's present...\u001b[0m\r\n"
+    ],
+    [
+      0.055035,
+      "\u001b[33m           default: Key inserted! Disconnecting and reconnecting using new SSH key...\u001b[0m\r\n"
+    ],
+    [
+      1.265955,
+      "\u001b[33m       ==\u003e default: Machine booted and ready!\u001b[0m\r\n"
+    ],
+    [
+      0.000343,
+      "\u001b[33m       ==\u003e default: Checking for guest additions in VM...\u001b[0m\r\n"
+    ],
+    [
+      0.049964,
+      "\u001b[33m       ==\u003e default: Setting hostname...\u001b[0m\r\n"
+    ],
+    [
+      6.257323,
+      "\u001b[33m       ==\u003e default: Machine not provisioned because `--no-provision` is specified.\u001b[0m\r\n"
+    ],
+    [
+      2.743488,
+      "\u001b[33m       [SSH] Established\u001b[0m\r\n"
+    ],
+    [
+      0.000310,
+      "\u001b[33m       Vagrant instance \u003cdefault-ubuntu-1404\u003e created.\u001b[0m\r\n"
+    ],
+    [
+      0.001254,
+      "\u001b[33m       Finished creating \u003cdefault-ubuntu-1404\u003e (0m44.54s).\u001b[0m\r\n"
+    ],
+    [
+      0.000388,
+      "\u001b[33m-----\u003e Converging \u003cdefault-ubuntu-1404\u003e...\u001b[0m\r\n"
+    ],
+    [
+      0.001961,
+      "\u001b[33m       Preparing files for transfer\u001b[0m\r\n"
+    ],
+    [
+      0.000073,
+      "\u001b[33m       Preparing dna.json\u001b[0m\r\n"
+    ],
+    [
+      0.000359,
+      "\u001b[33m       Resolving cookbook dependencies with Berkshelf 4.3.5...\u001b[0m\r\n"
+    ],
+    [
+      0.564290,
+      "\u001b[33m       Removing non-cookbook files before transfer\u001b[0m\r\n"
+    ],
+    [
+      0.012070,
+      "\u001b[33m       Preparing validation.pem\u001b[0m\r\n"
+    ],
+    [
+      0.000703,
+      "\u001b[33m       Preparing client.rb\u001b[0m\r\n"
+    ],
+    [
+      0.017604,
+      "\u001b[33m-----\u003e Installing Chef Omnibus (install only if missing)\u001b[0m\r\n"
+    ],
+    [
+      0.001015,
+      "\u001b[33m       Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh\u001b[0m\r\n"
+    ],
+    [
+      0.000432,
+      "\u001b[33m       Trying wget...\u001b[0m\r\n"
+    ],
+    [
+      1.119593,
+      "\u001b[33m       Download complete.\u001b[0m\r\n"
+    ],
+    [
+      0.013722,
+      "\u001b[33m       ubuntu 14.04 x86_64\u001b[0m\r\n"
+    ],
+    [
+      0.000412,
+      "\u001b[33m       Getting information for chef stable  for ubuntu...\u001b[0m\r\n"
+    ],
+    [
+      0.000435,
+      "\u001b[33m       downloading https://omnitruck.chef.io/stable/chef/metadata?v=\u0026p=ubuntu\u0026pv=14.04\u0026m=x86_64\u001b[0m\r\n"
+    ],
+    [
+      0.000263,
+      "\u001b[33m         to file /tmp/install.sh.1408/metadata.txt\u001b[0m\r\n"
+    ],
+    [
+      0.000957,
+      "\u001b[33m       trying wget...\u001b[0m\r\n"
+    ],
+    [
+      1.182495,
+      "\u001b[33m       sha1\tbc4a6642d6093b54de856da31f0651a56b0fdc8e\u001b[0m\r\n"
+    ],
+    [
+      0.000540,
+      "\u001b[33m       sha256\tf1cf5d0f6dd12d2d2296ec6d8dbb16363f8541f5c15298cafa70e65ff2b5a22f\u001b[0m\r\n"
+    ],
+    [
+      0.000847,
+      "\u001b[33m       url\thttps://packages.chef.io/stable/ubuntu/14.04/chef_12.11.18-1_amd64.deb\u001b[0m\r\n"
+    ],
+    [
+      0.000986,
+      "\u001b[33m       version\t12.11.18\u001b[0m\r\n"
+    ],
+    [
+      0.002386,
+      "\u001b[33m       downloaded metadata file looks valid...\u001b[0m\r\n"
+    ],
+    [
+      0.004994,
+      "\u001b[33m       downloading https://packages.chef.io/stable/ubuntu/14.04/chef_12.11.18-1_amd64.deb\u001b[0m\r\n"
+    ],
+    [
+      0.000427,
+      "\u001b[33m         to file /tmp/install.sh.1408/chef_12.11.18-1_amd64.deb\u001b[0m\r\n"
+    ],
+    [
+      0.000614,
+      "\u001b[33m       trying wget...\u001b[0m\r\n"
+    ],
+    [
+      16.346889,
+      "\u001b[33m       Comparing checksum with sha256sum...\u001b[0m\r\n"
+    ],
+    [
+      0.412444,
+      "\u001b[33m       \u001b[0m\r\n"
+    ],
+    [
+      0.000841,
+      "\u001b[33m       WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING\u001b[0m\r\n"
+    ],
+    [
+      0.000283,
+      "\u001b[33m       \u001b[0m\r\n"
+    ],
+    [
+      0.000924,
+      "\u001b[33m       You are installing an omnibus package without a version pin.  If you are installing\u001b[0m\r\n"
+    ],
+    [
+      0.000498,
+      "\u001b[33m       on production servers via an automated process this is DANGEROUS and you will\u001b[0m\r\n"
+    ],
+    [
+      0.000367,
+      "\u001b[33m       be upgraded without warning on new releases, even to new major releases.\u001b[0m\r\n"
+    ],
+    [
+      0.000685,
+      "\u001b[33m       Letting the version float is only appropriate in desktop, test, development or\u001b[0m\r\n"
+    ],
+    [
+      0.001530,
+      "\u001b[33m       CI/CD environments.\u001b[0m\r\n"
+    ],
+    [
+      0.000008,
+      "\u001b[33m       \u001b[0m\r\n"
+    ],
+    [
+      0.000004,
+      "\u001b[33m       WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING\u001b[0m\r\n"
+    ],
+    [
+      0.000027,
+      "\u001b[33m       \u001b[0m\r\n"
+    ],
+    [
+      0.000005,
+      "\u001b[33m       Installing chef \u001b[0m\r\n"
+    ],
+    [
+      0.000026,
+      "\u001b[33m       installing with dpkg...\u001b[0m\r\n"
+    ],
+    [
+      0.076010,
+      "\u001b[33m       Selecting previously unselected package chef.\u001b[0m\r\n"
+    ],
+    [
+      0.036607,
+      "\u001b[33m       (Reading database ... \r(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r(Reading database ... 60%\r(Reading database ... 65%\r(Reading database ... 70%\r(Reading database ... 75%\r(Reading database ... 80%\r(Reading database ... 85%\r(Reading database ... 90%\r(Reading database ... 95%\r(Reading database ... 100%\r(Reading database ... 32948 files and directories currently installed.)\u001b[0m\r\n"
+    ],
+    [
+      0.002922,
+      "\u001b[33m       Preparing to unpack .../chef_12.11.18-1_amd64.deb ...\u001b[0m\r\n"
+    ],
+    [
+      0.036105,
+      "\u001b[33m       Unpacking chef (12.11.18-1) ...\u001b[0m\r\n"
+    ],
+    [
+      5.373025,
+      "\u001b[33m       Setting up chef (12.11.18-1) ...\u001b[0m\r\n"
+    ],
+    [
+      0.093768,
+      "\u001b[33m       Thank you for installing Chef!\u001b[0m\r\n"
+    ],
+    [
+      0.084922,
+      "\u001b[33m       Transferring files to \u003cdefault-ubuntu-1404\u003e\u001b[0m\r\n"
+    ],
+    [
+      1.965363,
+      "\u001b[33m       Starting Chef Client, version 12.11.18\u001b[0m\r\n"
+    ],
+    [
+      1.755238,
+      "\u001b[33m       Creating a new client identity for default-ubuntu-1404 using the validator key.\u001b[0m\r\n"
+    ],
+    [
+      0.284907,
+      "\u001b[33m       resolving cookbooks for run list: [\"example::default\"]\u001b[0m\r\n"
+    ],
+    [
+      0.452745,
+      "\u001b[33m       Synchronizing Cookbooks:\u001b[0m\r\n"
+    ],
+    [
+      0.088558,
+      "\u001b[33m         - apt (4.0.1)\u001b[0m\r\n"
+    ],
+    [
+      0.003888,
+      "\u001b[33m         - example (0.0.1)\u001b[0m\r\n"
+    ],
+    [
+      0.003612,
+      "\u001b[33m         - yum (3.11.0)\u001b[0m\r\n"
+    ],
+    [
+      0.131215,
+      "\u001b[33m         - compat_resource (12.10.6)\u001b[0m\r\n"
+    ],
+    [
+      0.000875,
+      "\u001b[33m       Installing Cookbook Gems:\u001b[0m\r\n"
+    ],
+    [
+      0.001289,
+      "\u001b[33m       Compiling Cookbooks...\u001b[0m\r\n"
+    ],
+    [
+      0.068518,
+      "\u001b[33m       [2016-07-02T20:04:40+00:00] WARN: Chef::Provider::AptRepository already exists!  Cannot create deprecation class for LWRP provider apt_repository from cookbook apt\u001b[0m\r\n"
+    ],
+    [
+      0.007849,
+      "\u001b[33m       [2016-07-02T20:04:40+00:00] WARN: AptRepository already exists!  Deprecation class overwrites Custom resource apt_repository from cookbook apt\u001b[0m\r\n"
+    ],
+    [
+      0.084295,
+      "\u001b[33m       Converging 11 resources\u001b[0m\r\n"
+    ],
+    [
+      0.001077,
+      "\u001b[33m       Recipe: apt::default\u001b[0m\r\n"
+    ],
+    [
+      0.001228,
+      "\u001b[33m         * file[/var/lib/apt/periodic/update-success-stamp] action nothing (skipped due to action :nothing)\u001b[0m\r\n"
+    ],
+    [
+      0.003348,
+      "\u001b[33m         * apt_update[periodic] action periodic\u001b[0m\r\n"
+    ],
+    [
+      0.001048,
+      "\u001b[33m           - update new lists of packages\u001b[0m\r\n"
+    ],
+    [
+      0.005874,
+      "\u001b[33m           * directory[/var/lib/apt/periodic] action create (up to date)\u001b[0m\r\n"
+    ],
+    [
+      0.003366,
+      "\u001b[33m           * directory[/etc/apt/apt.conf.d] action create (up to date)\u001b[0m\r\n"
+    ],
+    [
+      0.007157,
+      "\u001b[33m           * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing\u001b[0m\r\n"
+    ],
+    [
+      0.002406,
+      "\u001b[33m             - create new file /etc/apt/apt.conf.d/15update-stamp\u001b[0m\r\n"
+    ],
+    [
+      0.000501,
+      "\u001b[33m             - update content in file /etc/apt/apt.conf.d/15update-stamp from none to c399a7\u001b[0m\r\n"
+    ],
+    [
+      0.001013,
+      "\u001b[33m             --- /etc/apt/apt.conf.d/15update-stamp\t2016-07-02 20:04:40.897471549 +0000\u001b[0m\r\n"
+    ],
+    [
+      0.000886,
+      "\u001b[33m             +++ /etc/apt/apt.conf.d/.chef-15update-stamp20160702-1519-1p00w9d\t2016-07-02 20:04:40.897471549 +0000\u001b[0m\r\n"
+    ],
+    [
+      0.000620,
+      "\u001b[33m             @@ -1 +1,2 @@\u001b[0m\r\n"
+    ],
+    [
+      0.001533,
+      "\u001b[33m             +APT::Update::Post-Invoke-Success {\"touch /var/lib/apt/periodic/update-success-stamp 2\u003e/dev/null || true\";};\u001b[0m\r\n"
+    ],
+    [
+      15.365972,
+      "\u001b[33m           * execute[apt-get -q update] action run\u001b[0m\r\n"
+    ],
+    [
+      0.000010,
+      "\u001b[33m             - execute apt-get -q update\u001b[0m\r\n\u001b[33m         \u001b[0m\r\n"
+    ],
+    [
+      0.000019,
+      "\u001b[33m         * execute[apt-get update] action nothing (skipped due to action :nothing)\u001b[0m\r\n"
+    ],
+    [
+      0.000017,
+      "\u001b[33m         * execute[apt-get autoremove] action nothing (skipped due to action :nothing)\u001b[0m\r\n"
+    ],
+    [
+      0.000019,
+      "\u001b[33m         * execute[apt-get autoclean] action nothing (skipped due to action :nothing)\u001b[0m\r\n"
+    ],
+    [
+      0.001520,
+      "\u001b[33m         * directory[/var/cache/local] action create\u001b[0m\r\n"
+    ],
+    [
+      0.003163,
+      "\u001b[33m           - create new directory /var/cache/local\u001b[0m\r\n"
+    ],
+    [
+      0.000388,
+      "\u001b[33m           - change mode from '' to '0755'\u001b[0m\r\n"
+    ],
+    [
+      0.000493,
+      "\u001b[33m           - change owner from '' to 'root'\u001b[0m\r\n"
+    ],
+    [
+      0.001576,
+      "\u001b[33m           - change group from '' to 'root'\u001b[0m\r\n"
+    ],
+    [
+      0.002896,
+      "\u001b[33m         * directory[/var/cache/local/preseeding] action create\u001b[0m\r\n"
+    ],
+    [
+      0.004098,
+      "\u001b[33m           - create new directory /var/cache/local/preseeding\u001b[0m\r\n"
+    ],
+    [
+      0.000656,
+      "\u001b[33m           - change mode from '' to '0755'\u001b[0m\r\n"
+    ],
+    [
+      0.000715,
+      "\u001b[33m           - change owner from '' to 'root'\u001b[0m\r\n"
+    ],
+    [
+      0.001256,
+      "\u001b[33m           - change group from '' to 'root'\u001b[0m\r\n"
+    ],
+    [
+      0.008901,
+      "\u001b[33m         * template[/etc/apt/apt.conf.d/10recommends] action create\u001b[0m\r\n"
+    ],
+    [
+      0.001988,
+      "\u001b[33m           - create new file /etc/apt/apt.conf.d/10recommends\u001b[0m\r\n"
+    ],
+    [
+      0.000453,
+      "\u001b[33m           - update content in file /etc/apt/apt.conf.d/10recommends from none to f41e1d\u001b[0m\r\n"
+    ],
+    [
+      0.000876,
+      "\u001b[33m           --- /etc/apt/apt.conf.d/10recommends\t2016-07-02 20:04:56.297550549 +0000\u001b[0m\r\n"
+    ],
+    [
+      0.000928,
+      "\u001b[33m           +++ /etc/apt/apt.conf.d/.chef-10recommends20160702-1519-1076bg\t2016-07-02 20:04:56.293550549 +0000\u001b[0m\r\n"
+    ],
+    [
+      0.000507,
+      "\u001b[33m           @@ -1 +1,4 @@\u001b[0m\r\n"
+    ],
+    [
+      0.000571,
+      "\u001b[33m           +# Managed by Chef\u001b[0m\r\n"
+    ],
+    [
+      0.000909,
+      "\u001b[33m           +APT::Install-Recommends \"1\";\u001b[0m\r\n"
+    ],
+    [
+      0.003530,
+      "\u001b[33m           +APT::Install-Suggests \"0\";\u001b[0m\r\n"
+    ],
+    [
+      0.000823,
+      "\u001b[33m           - change mode from '' to '0644'\u001b[0m\r\n"
+    ],
+    [
+      0.000682,
+      "\u001b[33m           - change owner from '' to 'root'\u001b[0m\r\n"
+    ],
+    [
+      0.003286,
+      "\u001b[33m           - change group from '' to 'root'\u001b[0m\r\n"
+    ],
+    [
+      0.105078,
+      "\u001b[33m         * apt_package[apt-transport-https] action install (up to date)\u001b[0m\r\n"
+    ],
+    [
+      0.000666,
+      "\u001b[33m       Recipe: example::apache\u001b[0m\r\n"
+    ],
+    [
+      8.348473,
+      "\u001b[33m         * apt_package[apache2] action install\u001b[0m\r\n"
+    ],
+    [
+      0.001125,
+      "\u001b[33m           - install version 2.4.7-1ubuntu4.10 of package apache2\u001b[0m\r\n"
+    ],
+    [
+      0.097101,
+      "\u001b[33m         * service[apache2] action start (up to date)\u001b[0m\r\n"
+    ],
+    [
+      0.132319,
+      "\u001b[33m       \u001b[0m\r\n"
+    ],
+    [
+      0.000291,
+      "\u001b[33m       Running handlers:\u001b[0m\r\n"
+    ],
+    [
+      0.000467,
+      "\u001b[33m       Running handlers complete\u001b[0m\r\n"
+    ],
+    [
+      0.002178,
+      "\u001b[33m       Chef Client finished, 7/15 resources updated in 27 seconds\u001b[0m\r\n"
+    ],
+    [
+      1.065417,
+      "\u001b[33m       Finished converging \u003cdefault-ubuntu-1404\u003e (0m55.43s).\u001b[0m\r\n"
+    ],
+    [
+      0.000301,
+      "\u001b[33m-----\u003e Setting up \u003cdefault-ubuntu-1404\u003e...\u001b[0m\r\n"
+    ],
+    [
+      0.002365,
+      "\u001b[33m       Finished setting up \u003cdefault-ubuntu-1404\u003e (0m0.00s).\u001b[0m\r\n"
+    ],
+    [
+      0.000106,
+      "\u001b[33m-----\u003e Verifying \u003cdefault-ubuntu-1404\u003e...\u001b[0m\r\n"
+    ],
+    [
+      0.221293,
+      "\u001b[33m       Use `/Users/glauco/Github/provisioning-tests-talk/test/integration/default` for testing\u001b[0m\r\n"
+    ],
+    [
+      0.138204,
+      "\r\n"
+    ],
+    [
+      0.000008,
+      "Target:  ssh://vagrant@127.0.0.1:2201\r\n\r\n"
+    ],
+    [
+      0.000031,
+      "\u001b[32m  ✔  System Package apache2 should be installed\u001b[0m\r\n"
+    ],
+    [
+      0.000101,
+      "\u001b[32m  ✔  Service apache2 should be installed\u001b[0m\r\n"
+    ],
+    [
+      0.000169,
+      "\u001b[32m  ✔  Port 80 should be listening\u001b[0m"
+    ],
+    [
+      0.000005,
+      "\r\n\r\n"
+    ],
+    [
+      0.000016,
+      "Summary:   4 successful    0 failures    0 skipped\r\n"
+    ],
+    [
+      0.001496,
+      "\u001b[33m       Finished verifying \u003cdefault-ubuntu-1404\u003e (0m0.36s).\u001b[0m\r\n"
+    ],
+    [
+      0.001573,
+      "\u001b[33m-----\u003e Destroying \u003cdefault-ubuntu-1404\u003e...\u001b[0m\r\n"
+    ],
+    [
+      3.441161,
+      "\u001b[33m       ==\u003e default: Forcing shutdown of VM...\u001b[0m\r\n"
+    ],
+    [
+      1.439013,
+      "\u001b[33m       ==\u003e default: Destroying VM and associated drives...\u001b[0m\r\n"
+    ],
+    [
+      0.291519,
+      "\u001b[33m       Vagrant instance \u003cdefault-ubuntu-1404\u003e destroyed.\u001b[0m\r\n"
+    ],
+    [
+      0.001625,
+      "\u001b[33m       Finished destroying \u003cdefault-ubuntu-1404\u003e (0m5.17s).\u001b[0m\r\n"
+    ],
+    [
+      0.000280,
+      "\u001b[33m       Finished testing \u003cdefault-ubuntu-1404\u003e (1m45.52s).\u001b[0m\r\n"
+    ],
+    [
+      0.000308,
+      "-----\u003e Kitchen is finished. (3m32.76s)\r\n"
+    ]
+  ]
+}

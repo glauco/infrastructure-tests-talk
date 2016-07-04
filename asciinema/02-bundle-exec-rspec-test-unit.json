@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "width": 80,
+  "height": 25,
+  "duration": 5.483901,
+  "command": "bundle exec rspec test/unit",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      4.811050,
+      "[2016-07-02T15:02:12-03:00] WARN: Chef::Provider::AptRepository already exists!  Cannot create deprecation class for LWRP provider apt_repository from cookbook apt\r\n"
+    ],
+    [
+      0.009932,
+      "[2016-07-02T15:02:12-03:00] WARN: AptRepository already exists!  Deprecation class overwrites Custom resource apt_repository from cookbook apt\r\n"
+    ],
+    [
+      0.043904,
+      "\u001b[32m.\u001b[0m"
+    ],
+    [
+      0.115174,
+      "\u001b[32m.\u001b[0m"
+    ],
+    [
+      0.116692,
+      "\u001b[32m.\u001b[0m"
+    ],
+    [
+      0.112352,
+      "\u001b[32m.\u001b[0m"
+    ],
+    [
+      0.107088,
+      "\u001b[32m.\u001b[0m"
+    ],
+    [
+      0.113612,
+      "\u001b[32m.\u001b[0m"
+    ],
+    [
+      0.020030,
+      "\r\n"
+    ],
+    [
+      0.000197,
+      "\r\nFinished in 1.49 seconds (files took 3.01 seconds to load)\r\n\u001b[32m6 examples, 0 failures\u001b[0m\r\n"
+    ],
+    [
+      0.000031,
+      "\r\n"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+DEPENDENCIES
+  example
+    path: .
+    metadata: true
+
+GRAPH
+  apt (4.0.1)
+    compat_resource (>= 12.10)
+  compat_resource (12.10.6)
+  example (0.0.1)
+    apt (>= 0.0.0)
+    yum (>= 0.0.0)
+  yum (3.11.0)
