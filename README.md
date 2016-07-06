@@ -2,6 +2,8 @@
 
 This is an example of how to test your infrastructure.
 
+The presentation slides are available in [here](http://www.slideshare.net/glaucovinicius/infrastructure-testing).
+
 ## Requirements
 
 * A text editor
